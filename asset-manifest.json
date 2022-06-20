@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/belbooks/static/css/main.692106b1.css",
+    "main.css": "/belbooks/static/css/main.b8b7fafd.css",
     "main.js": "/belbooks/static/js/main.07190fb3.js",
     "static/js/787.5ac076b9.chunk.js": "/belbooks/static/js/787.5ac076b9.chunk.js",
     "static/media/books.JPG": "/belbooks/static/media/books.a04d713c630a24b30cf5.JPG",
     "static/media/instagram.jpg": "/belbooks/static/media/instagram.46aeadd5e87a610a1f23.jpg",
     "index.html": "/belbooks/index.html",
-    "main.692106b1.css.map": "/belbooks/static/css/main.692106b1.css.map",
+    "main.b8b7fafd.css.map": "/belbooks/static/css/main.b8b7fafd.css.map",
     "main.07190fb3.js.map": "/belbooks/static/js/main.07190fb3.js.map",
     "787.5ac076b9.chunk.js.map": "/belbooks/static/js/787.5ac076b9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.692106b1.css",
+    "static/css/main.b8b7fafd.css",
     "static/js/main.07190fb3.js"
   ]
 }
