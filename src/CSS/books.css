@@ -52,6 +52,16 @@
     cursor: pointer;
 }
 
+.button-see-more {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 5px;
+    gap: 10px;
+    background-color: black;
+}
+
 .icon-amazon {
     font-size: 15px;
 }
