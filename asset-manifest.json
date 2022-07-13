@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/belbooks/static/css/main.41ae2c73.css",
-    "main.js": "/belbooks/static/js/main.bdf602da.js",
+    "main.css": "/belbooks/static/css/main.9b7da13f.css",
+    "main.js": "/belbooks/static/js/main.d740d39b.js",
     "static/js/787.5ac076b9.chunk.js": "/belbooks/static/js/787.5ac076b9.chunk.js",
     "static/media/books.JPG": "/belbooks/static/media/books.a04d713c630a24b30cf5.JPG",
     "static/media/instagram.jpg": "/belbooks/static/media/instagram.46aeadd5e87a610a1f23.jpg",
     "index.html": "/belbooks/index.html",
-    "main.41ae2c73.css.map": "/belbooks/static/css/main.41ae2c73.css.map",
-    "main.bdf602da.js.map": "/belbooks/static/js/main.bdf602da.js.map",
+    "main.9b7da13f.css.map": "/belbooks/static/css/main.9b7da13f.css.map",
+    "main.d740d39b.js.map": "/belbooks/static/js/main.d740d39b.js.map",
     "787.5ac076b9.chunk.js.map": "/belbooks/static/js/787.5ac076b9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.41ae2c73.css",
-    "static/js/main.bdf602da.js"
+    "static/css/main.9b7da13f.css",
+    "static/js/main.d740d39b.js"
   ]
 }
