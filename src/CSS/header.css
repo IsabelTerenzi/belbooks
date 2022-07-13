@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(21, 21, 21);
+    color: white;
+    padding: 10px;
+    align-items: center;
+}
+
+.belbooks {
+    color: white;
+    font-size: xx-large;
+}
+
+.iconbooks {
+    font-size: 40px;
+}
+
+.link {
+    color: white;
+    font-size: large;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(20, 19, 19);
+    padding: 15px;
+    color: white;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    opacity: 80%;
+    font-style: italic;
+    z-index: 999;
+}
+
+@media only screen and (max-width: 768px) {
+    .belbooks {
+        font-size: 15px;
+    }
+
+    .link {
+        font-size: 15px;
+    }
+    .iconbooks {
+        font-size: 20px;
+    }
+    footer {
+        opacity: 0%
+    }
+}

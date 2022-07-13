@@ -1,0 +1,68 @@
+.about {
+    background-image: url('../Data/books.JPG');
+    background-size: cover;
+    background-clip: content-box;
+    background-position-y: -250px;
+    background-attachment: fixed;
+    background-position: top;
+    padding:0;
+    margin:0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.imginsta {
+    width: 300px;
+    margin-top: 50px;
+}
+
+.imgbooks {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.about p {
+    width: 25%;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 40px;
+    backdrop-filter: blur( 60px );
+    -webkit-backdrop-filter: blur( 60px );
+    border-radius: 15px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: 0px;
+    }
+    .imgbooks {
+        width: 130px;
+        margin-top: 10px;
+    }
+    .about p{
+        color: white;
+        font-size: 10px;
+        line-height: 16px;
+        background-color: rgb(34, 33, 33);
+        width: 75%;
+    }
+    .imginsta {
+        width: 140px;
+        margin-top: 5px;
+        margin-bottom: 80px;
+    }
+}

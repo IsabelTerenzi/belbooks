@@ -1,0 +1,152 @@
+.search {
+    color: white;
+    padding: 40px;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.inputsearch {
+  margin-bottom: 20px;
+}
+
+.search-general {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    width: 90%;
+    margin: auto;
+    padding: 30px;
+}
+
+.search label {
+   gap: 10px;
+   font-size: x-large;
+   font-weight: bolder;
+}
+
+.search input{
+    padding: 18px;
+    margin-left: 1%;
+    margin-top: 5%;
+}
+
+.book-search {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+
+.book-search h1 {
+  margin-bottom: -10px
+}
+
+.book-search h2 {
+  font-style: italic;
+}
+
+.nomeeautor {
+    margin-bottom: 5px;
+}
+
+.book-search img {
+  width: 200px;
+  height: auto;
+}
+
+.book-search p{
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    background-color: #212020;
+    padding: 20px;
+    font-weight: 450;
+    color: white;
+    width: 80%;
+    margin: auto;
+}
+
+.book-search button {
+  padding: 14px;
+  font-size: 18px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(125, 123, 123, 0.2), 0 6px 20px 0 rgba(105, 104, 104, 0.19);
+  cursor: pointer;
+}
+
+.infoautor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-left: 20px;
+    width: 100%;
+}
+
+.review {
+  margin-top: 10px;
+}
+
+.buttons-search {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 5px;
+    gap: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    width: 100%;
+}
+  .book-search {
+      flex-direction: column;
+      gap: 5px;
+  }
+  .book-search img {
+    width: 100px;
+  }
+  .book-search button{
+    font-size: 12px;
+    padding: 8px;
+    margin-top: 5px;
+  }
+  .book-search p{
+    font-size: 15px;
+    line-height: 20px;
+    width: 90%;
+  }
+  .book-search h1{
+    font-size: 25px;
+  }
+  .book-search h2{
+    font-size: 20px;
+  }
+  .details {
+    font-size: 12px;
+  }
+  .search {
+    padding: 5px;
+  }
+  .search input {
+    padding: 10px;
+  }
+  .search label {
+    font-size: large;
+ }
+ .infoautor{
+  margin-left: 0px;
+ }
+ .search-general{
+   padding: 0px;;
+ }
+}
